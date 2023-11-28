@@ -17,7 +17,7 @@ env:
   AWS_ACCESSS_KEY_ID: ${{ secrets.AWS_ACCESSS_KEY_ID }}
   AWS_SECRET_ACCESSS_KEY: ${{ secrets.AWS_SECRET_ACCESSS_KEY }}
   #S3 bucket for the terraform state
-  BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE}}
+  BUCKETS_TF_STATE: ${{ secrets.BUCKETS_TF_STATE}}
   AWS_REGION: us-west-2
   EKSCLUSTER: vprofile-eks
 
