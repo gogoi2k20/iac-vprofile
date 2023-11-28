@@ -6,7 +6,7 @@ on:
       - stage
     paths:
       - terraform/**
-  pull:
+  pull_request:
     branches:
       - main
     paths:
@@ -59,4 +59,4 @@ jobs:
         if: steps.plan.outcome == 'failure'
         run: exit 1
       
-      
+
